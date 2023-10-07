@@ -26,7 +26,8 @@ public class Webtable1 {
 				System.out.print(driver.findElement(By.xpath("html/body/table/tbody/tr["+a+"]/th["+b+"]")).getText());
 		    }
 			System.out.println();
-	     
+			System.out.println("ssssssssssssssssssssssssssssssssssssssssssssssssssssssss");
+
 			
 	    }
 	}
