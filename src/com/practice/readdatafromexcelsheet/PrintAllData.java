@@ -30,6 +30,8 @@ public class PrintAllData
 				System.out.println("clones successfullyyyyyyyy");
 				
 				System.out.println("branch demo -----testing");
+			
+				System.out.println("branch demo merging-----testing");
 
 
 	}
