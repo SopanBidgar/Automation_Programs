@@ -15,8 +15,8 @@ public class DataReadfromExcel
 		FileInputStream file=new FileInputStream("E:\\Java\\Sopan1.xlsx");
 		Workbook work = WorkbookFactory.create(file);
 		Sheet sh = work.getSheet("DDF");
-		Row rw = sh.getRow(1);
-		Cell cl = rw.getCell(1);
+		Row rw = sh.getRow(0);
+		Cell cl = rw.getCell(0);
 		String value = cl.getStringCellValue();
 		System.out.println(value);
 		
